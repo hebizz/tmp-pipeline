@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>level: GStreamer Good Plugins 1.0 Plugins Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GStreamer Good Plugins 1.0 Plugins Reference Manual">
+<link rel="up" href="ch01.html" title="gst-plugins-good Elements">
+<link rel="prev" href="gst-plugins-good-plugins-jpegenc.html" title="jpegenc">
+<link rel="next" href="gst-plugins-good-plugins-matroskademux.html" title="matroskademux">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#gst-plugins-good-plugins-level.description" class="shortcut">Description</a></span><span id="nav_hierarchy">  <span class="dim">|</span> 
+                  <a href="#gst-plugins-good-plugins-level.object-hierarchy" class="shortcut">Object Hierarchy</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#gst-plugins-good-plugins-level.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="gst-plugins-good-plugins-jpegenc.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="gst-plugins-good-plugins-matroskademux.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="gst-plugins-good-plugins-level"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gst-plugins-good-plugins-level.top_of_page"></a>level</span></h2>
+<p>level</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="gst-plugins-good-plugins-level.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">guint64</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--interval" title="The “interval” property">interval</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--message" title="The “message” property">message</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gdouble</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--peak-falloff" title="The “peak-falloff” property">peak-falloff</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint64</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--peak-ttl" title="The “peak-ttl” property">peak-ttl</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gboolean</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--post-messages" title="The “post-messages” property">post-messages</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<a name="GstLevel"></a><div class="refsect1">
+<a name="gst-plugins-good-plugins-level.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="gst-plugins-good-plugins-level.html#GstLevel-struct" title="struct GstLevel">GstLevel</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-good-plugins-level.object-hierarchy"></a><h2>Object Hierarchy</h2>
+<pre class="screen">    GObject
+    <span class="lineart">╰──</span> GInitiallyUnowned
+        <span class="lineart">╰──</span> <a href="../gstreamer-1.0/GstObject.html#GstObject-struct">GstObject</a>
+            <span class="lineart">╰──</span> <a href="../gstreamer-1.0/GstElement.html#GstElement-struct">GstElement</a>
+                <span class="lineart">╰──</span> <a href="../gstreamer-libs-1.0/GstBaseTransform.html#GstBaseTransform-struct">GstBaseTransform</a>
+                    <span class="lineart">╰──</span> GstLevel
+</pre>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-good-plugins-level.description"></a><h2>Description</h2>
+<p>Level analyses incoming audio buffers and, if the <a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--message" title="The “message” property"><span class="type">“message”</span></a> property
+is <span class="type">TRUE</span>, generates an element message named</p>
+<code class="classname">"level"</code>:
+<p>after each interval of time given by the <a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--interval" title="The “interval” property"><span class="type">“interval”</span></a> property.
+The message's structure contains these fields:</p>
+<div class="itemizedlist"><ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem"><p>
+  <a href="../gstreamer-1.0/GstClock.html#GstClockTime"><span class="type">GstClockTime</span></a>
+  <code class="classname">"timestamp"</code>:
+  the timestamp of the buffer that triggered the message.
+  </p></li>
+<li class="listitem"><p>
+  <a href="../gstreamer-1.0/GstClock.html#GstClockTime"><span class="type">GstClockTime</span></a>
+  <code class="classname">"stream-time"</code>:
+  the stream time of the buffer.
+  </p></li>
+<li class="listitem"><p>
+  <a href="../gstreamer-1.0/GstClock.html#GstClockTime"><span class="type">GstClockTime</span></a>
+  <code class="classname">"running-time"</code>:
+  the running_time of the buffer.
+  </p></li>
+<li class="listitem"><p>
+  <a href="../gstreamer-1.0/GstClock.html#GstClockTime"><span class="type">GstClockTime</span></a>
+  <code class="classname">"duration"</code>:
+  the duration of the buffer.
+  </p></li>
+<li class="listitem"><p>
+  <a href="../gstreamer-1.0/GstClock.html#GstClockTime"><span class="type">GstClockTime</span></a>
+  <code class="classname">"endtime"</code>:
+  the end time of the buffer that triggered the message as stream time (this
+  is deprecated, as it can be calculated from stream-time + duration)
+  </p></li>
+<li class="listitem"><p>
+  <span class="type">GValueArray</span> of <span class="type">gdouble</span>
+  <code class="classname">"peak"</code>:
+  the peak power level in dB for each channel
+  </p></li>
+<li class="listitem"><p>
+  <span class="type">GValueArray</span> of <span class="type">gdouble</span>
+  <code class="classname">"decay"</code>:
+  the decaying peak power level in dB for each channel
+  The decaying peak level follows the peak level, but starts dropping if no
+  new peak is reached after the time given by the <a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--peak-ttl" title="The “peak-ttl” property"><span class="type">“peak-ttl”</span></a>.
+  When the decaying peak level drops, it does so at the decay rate as
+  specified by the <a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--peak-falloff" title="The “peak-falloff” property"><span class="type">“peak-falloff”</span></a>.
+  </p></li>
+<li class="listitem"><p>
+  <span class="type">GValueArray</span> of <span class="type">gdouble</span>
+  <code class="classname">"rms"</code>:
+  the Root Mean Square (or average power) level in dB for each channel
+  </p></li>
+</ul></div>
+<div class="refsect2">
+<a name="id-1.2.84.7.6"></a><h3>Example application</h3>
+<div class="informalexample"><pre class="programlisting">
+/* GStreamer
+ * Copyright (C) 2000,2001,2002,2003,2005
+ *           Thomas Vander Stichele &lt;thomas at apestaart dot org&gt;
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Library General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Library General Public License for more details.
+ *
+ * You should have received a copy of the GNU Library General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#include &lt;string.h&gt;
+#include &lt;math.h&gt;
+
+#define GLIB_DISABLE_DEPRECATION_WARNINGS
+
+#include &lt;gst/gst.h&gt;
+
+static gboolean
+message_handler (GstBus * bus, GstMessage * message, gpointer data)
+{
+
+  if (message-&gt;type == GST_MESSAGE_ELEMENT) {
+    const GstStructure *s = gst_message_get_structure (message);
+    const gchar *name = gst_structure_get_name (s);
+
+    if (strcmp (name, "level") == 0) {
+      gint channels;
+      GstClockTime endtime;
+      gdouble rms_dB, peak_dB, decay_dB;
+      gdouble rms;
+      const GValue *array_val;
+      const GValue *value;
+      GValueArray *rms_arr, *peak_arr, *decay_arr;
+      gint i;
+
+      if (!gst_structure_get_clock_time (s, "endtime", &amp;endtime))
+        g_warning ("Could not parse endtime");
+
+      /* the values are packed into GValueArrays with the value per channel */
+      array_val = gst_structure_get_value (s, "rms");
+      rms_arr = (GValueArray *) g_value_get_boxed (array_val);
+
+      array_val = gst_structure_get_value (s, "peak");
+      peak_arr = (GValueArray *) g_value_get_boxed (array_val);
+
+      array_val = gst_structure_get_value (s, "decay");
+      decay_arr = (GValueArray *) g_value_get_boxed (array_val);
+
+      /* we can get the number of channels as the length of any of the value
+       * arrays */
+      channels = rms_arr-&gt;n_values;
+      g_print ("endtime: %" GST_TIME_FORMAT ", channels: %d\n",
+          GST_TIME_ARGS (endtime), channels);
+      for (i = 0; i &lt; channels; ++i) {
+
+        g_print ("channel %d\n", i);
+        value = g_value_array_get_nth (rms_arr, i);
+        rms_dB = g_value_get_double (value);
+
+        value = g_value_array_get_nth (peak_arr, i);
+        peak_dB = g_value_get_double (value);
+
+        value = g_value_array_get_nth (decay_arr, i);
+        decay_dB = g_value_get_double (value);
+        g_print ("    RMS: %f dB, peak: %f dB, decay: %f dB\n",
+            rms_dB, peak_dB, decay_dB);
+
+        /* converting from dB to normal gives us a value between 0.0 and 1.0 */
+        rms = pow (10, rms_dB / 20);
+        g_print ("    normalized rms value: %f\n", rms);
+      }
+    }
+  }
+  /* we handled the message we want, and ignored the ones we didn't want.
+   * so the core can unref the message for us */
+  return TRUE;
+}
+
+int
+main (int argc, char *argv[])
+{
+  GstElement *audiotestsrc, *audioconvert, *level, *fakesink;
+  GstElement *pipeline;
+  GstCaps *caps;
+  GstBus *bus;
+  guint watch_id;
+  GMainLoop *loop;
+
+  gst_init (&amp;argc, &amp;argv);
+
+  caps = gst_caps_from_string ("audio/x-raw,channels=2");
+
+  pipeline = gst_pipeline_new (NULL);
+  g_assert (pipeline);
+  audiotestsrc = gst_element_factory_make ("audiotestsrc", NULL);
+  g_assert (audiotestsrc);
+  audioconvert = gst_element_factory_make ("audioconvert", NULL);
+  g_assert (audioconvert);
+  level = gst_element_factory_make ("level", NULL);
+  g_assert (level);
+  fakesink = gst_element_factory_make ("fakesink", NULL);
+  g_assert (fakesink);
+
+  gst_bin_add_many (GST_BIN (pipeline), audiotestsrc, audioconvert, level,
+      fakesink, NULL);
+  if (!gst_element_link (audiotestsrc, audioconvert))
+    g_error ("Failed to link audiotestsrc and audioconvert");
+  if (!gst_element_link_filtered (audioconvert, level, caps))
+    g_error ("Failed to link audioconvert and level");
+  if (!gst_element_link (level, fakesink))
+    g_error ("Failed to link level and fakesink");
+
+  /* make sure we'll get messages */
+  g_object_set (G_OBJECT (level), "post-messages", TRUE, NULL);
+  /* run synced and not as fast as we can */
+  g_object_set (G_OBJECT (fakesink), "sync", TRUE, NULL);
+
+  bus = gst_element_get_bus (pipeline);
+  watch_id = gst_bus_add_watch (bus, message_handler, NULL);
+
+  gst_element_set_state (pipeline, GST_STATE_PLAYING);
+
+  /* we need to run a GLib main loop to get the messages */
+  loop = g_main_loop_new (NULL, FALSE);
+  g_main_loop_run (loop);
+
+  g_source_remove (watch_id);
+  g_main_loop_unref (loop);
+  return 0;
+}
+
+</pre></div>
+</div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<div class="refsect2">
+<a name="id-1.2.84.7.7.1"></a><h3>Element Information</h3>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term">plugin</span></p></td>
+<td>
+            <a class="link" href="gst-plugins-good-plugins-plugin-level.html#plugin-level">level</a>
+          </td>
+</tr>
+<tr>
+<td><p><span class="term">author</span></p></td>
+<td>Thomas Vander Stichele &lt;thomas at apestaart dot org&gt;</td>
+</tr>
+<tr>
+<td><p><span class="term">class</span></p></td>
+<td>Filter/Analyzer/Audio</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="id-1.2.84.7.7.2"></a><h3>Element Pads</h3>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term">name</span></p></td>
+<td>sink</td>
+</tr>
+<tr>
+<td><p><span class="term">direction</span></p></td>
+<td>sink</td>
+</tr>
+<tr>
+<td><p><span class="term">presence</span></p></td>
+<td>always</td>
+</tr>
+<tr>
+<td><p><span class="term">details</span></p></td>
+<td>audio/x-raw, format=(string){ S8, S16LE, S32LE, F32LE, F64LE }, layout=(string)interleaved, rate=(int)[ 1, 2147483647 ], channels=(int)[ 1, 2147483647 ]</td>
+</tr>
+</tbody>
+</table></div>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term">name</span></p></td>
+<td>src</td>
+</tr>
+<tr>
+<td><p><span class="term">direction</span></p></td>
+<td>source</td>
+</tr>
+<tr>
+<td><p><span class="term">presence</span></p></td>
+<td>always</td>
+</tr>
+<tr>
+<td><p><span class="term">details</span></p></td>
+<td>audio/x-raw, format=(string){ S8, S16LE, S32LE, F32LE, F64LE }, layout=(string)interleaved, rate=(int)[ 1, 2147483647 ], channels=(int)[ 1, 2147483647 ]</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-good-plugins-level.functions_details"></a><h2>Functions</h2>
+<p></p>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-good-plugins-level.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GstLevel-struct"></a><h3>struct GstLevel</h3>
+<pre class="programlisting">struct GstLevel;</pre>
+<p>Opaque data structure.</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-good-plugins-level.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GstLevel--interval"></a><h3>The <code class="literal">“interval”</code> property</h3>
+<pre class="programlisting">  “interval”                 <span class="type">guint64</span></pre>
+<p>Interval of time between message posts (in nanoseconds).</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= 1</p>
+<p>Default value: 100000000</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstLevel--message"></a><h3>The <code class="literal">“message”</code> property</h3>
+<pre class="programlisting">  “message”                  <span class="type">gboolean</span></pre>
+<p>Post a 'level' message for each passed interval (deprecated, use the post-messages property instead).</p>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstLevel--peak-falloff"></a><h3>The <code class="literal">“peak-falloff”</code> property</h3>
+<pre class="programlisting">  “peak-falloff”             <span class="type">gdouble</span></pre>
+<p>Decay rate of decay peak after TTL (in dB/sec).</p>
+<p>Flags: Read / Write</p>
+<p>Allowed values: &gt;= 0</p>
+<p>Default value: 10</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstLevel--peak-ttl"></a><h3>The <code class="literal">“peak-ttl”</code> property</h3>
+<pre class="programlisting">  “peak-ttl”                 <span class="type">guint64</span></pre>
+<p>Time To Live of decay peak before it falls back (in nanoseconds).</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 300000000</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstLevel--post-messages"></a><h3>The <code class="literal">“post-messages”</code> property</h3>
+<pre class="programlisting">  “post-messages”            <span class="type">gboolean</span></pre>
+<p>Post messages on the bus with level information.</p>
+<div class="warning">
+<p><code class="literal">GstLevel:post-messages</code> is deprecated and should not be used in newly-written code.</p>
+<p>use the <a class="link" href="gst-plugins-good-plugins-level.html#GstLevel--post-messages" title="The “post-messages” property"><span class="type">“post-messages”</span></a> property</p>
+</div>
+<p>Flags: Read / Write</p>
+<p>Default value: TRUE</p>
+<p class="since">Since: 1.1.0</p>
+</div>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>

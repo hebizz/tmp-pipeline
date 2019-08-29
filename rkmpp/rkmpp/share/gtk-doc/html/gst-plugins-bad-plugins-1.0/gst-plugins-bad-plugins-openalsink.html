@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>openalsink: GStreamer Bad Plugins 1.0 Plugins Reference Manual</title>
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="index.html" title="GStreamer Bad Plugins 1.0 Plugins Reference Manual">
+<link rel="up" href="ch01.html" title="gst-plugins-bad Elements">
+<link rel="prev" href="gst-plugins-bad-plugins-openalsrc.html" title="openalsrc">
+<link rel="next" href="gst-plugins-bad-plugins-pcapparse.html" title="pcapparse">
+<meta name="generator" content="GTK-Doc V1.25 (XML mode)">
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table class="navigation" id="top" width="100%" summary="Navigation header" cellpadding="2" cellspacing="5"><tr valign="middle">
+<td width="100%" align="left" class="shortcuts">
+<a href="#" class="shortcut">Top</a><span id="nav_description">  <span class="dim">|</span> 
+                  <a href="#gst-plugins-bad-plugins-openalsink.description" class="shortcut">Description</a></span><span id="nav_properties">  <span class="dim">|</span> 
+                  <a href="#gst-plugins-bad-plugins-openalsink.properties" class="shortcut">Properties</a></span>
+</td>
+<td><a accesskey="h" href="index.html"><img src="home.png" width="16" height="16" border="0" alt="Home"></a></td>
+<td><a accesskey="u" href="ch01.html"><img src="up.png" width="16" height="16" border="0" alt="Up"></a></td>
+<td><a accesskey="p" href="gst-plugins-bad-plugins-openalsrc.html"><img src="left.png" width="16" height="16" border="0" alt="Prev"></a></td>
+<td><a accesskey="n" href="gst-plugins-bad-plugins-pcapparse.html"><img src="right.png" width="16" height="16" border="0" alt="Next"></a></td>
+</tr></table>
+<div class="refentry">
+<a name="gst-plugins-bad-plugins-openalsink"></a><div class="titlepage"></div>
+<div class="refnamediv"><table width="100%"><tr>
+<td valign="top">
+<h2><span class="refentrytitle"><a name="gst-plugins-bad-plugins-openalsink.top_of_page"></a>openalsink</span></h2>
+<p>openalsink — capture raw audio samples through OpenAL</p>
+</td>
+<td class="gallery_image" valign="top" align="right"></td>
+</tr></table></div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.properties"></a><h2>Properties</h2>
+<div class="informaltable"><table class="informaltable" border="0">
+<colgroup>
+<col width="150px" class="properties_type">
+<col width="300px" class="properties_name">
+<col width="200px" class="properties_flags">
+</colgroup>
+<tbody>
+<tr>
+<td class="property_type"><span class="type">gpointer</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--context-handle" title="The “context-handle” property">context-handle</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--device" title="The “device” property">device</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gpointer</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--device-handle" title="The “device-handle” property">device-handle</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type">
+<span class="type">gchar</span> *</td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--device-name" title="The “device-name” property">device-name</a></td>
+<td class="property_flags">Read</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--source-id" title="The “source-id” property">source-id</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gpointer</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--user-context" title="The “user-context” property">user-context</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">gpointer</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--user-device" title="The “user-device” property">user-device</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+<tr>
+<td class="property_type"><span class="type">guint</span></td>
+<td class="property_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink--user-source" title="The “user-source” property">user-source</a></td>
+<td class="property_flags">Read / Write</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.other"></a><h2>Types and Values</h2>
+<div class="informaltable"><table class="informaltable" width="100%" border="0">
+<colgroup>
+<col width="150px" class="name">
+<col class="description">
+</colgroup>
+<tbody><tr>
+<td class="datatype_keyword">struct</td>
+<td class="function_name"><a class="link" href="gst-plugins-bad-plugins-openalsink.html#GstOpenALSink" title="struct GstOpenALSink">GstOpenALSink</a></td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.description"></a><h2>Description</h2>
+<p>This element plays raw audio samples through OpenAL.</p>
+<p>Unfortunately the capture API doesn't have a format enumeration/check. all you can do is try opening it and see if it works.</p>
+<div class="refsect3">
+<a name="id-1.2.103.5.4"></a><h4>Example pipelines</h4>
+<div class="informalexample"><pre class="programlisting">
+gst-launch-1.0 audiotestsrc ! audioconvert ! volume volume=0.5 ! openalsink
+</pre></div>
+<p> will play a sine wave (continuous beep sound) through OpenAL.</p>
+<div class="informalexample"><pre class="programlisting">
+gst-launch-1.0 filesrc location=stream.wav ! decodebin ! audioconvert ! openalsink
+</pre></div>
+<p> will play a wav audio file through OpenAL.</p>
+<div class="informalexample"><pre class="programlisting">
+gst-launch-1.0 openalsrc ! "audio/x-raw,format=S16LE,rate=44100" ! audioconvert ! volume volume=0.25 ! openalsink
+</pre></div>
+<p> will capture and play audio through OpenAL.</p>
+</div>
+<div class="refsynopsisdiv">
+<h2>Synopsis</h2>
+<div class="refsect2">
+<a name="id-1.2.103.5.5.1"></a><h3>Element Information</h3>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term">plugin</span></p></td>
+<td>
+            <a class="link" href="gst-plugins-bad-plugins-plugin-openal.html#plugin-openal">openal</a>
+          </td>
+</tr>
+<tr>
+<td><p><span class="term">author</span></p></td>
+<td>Juan Manuel Borges Caño &lt;juanmabcmail@gmail.com&gt;</td>
+</tr>
+<tr>
+<td><p><span class="term">class</span></p></td>
+<td>Sink/Audio</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<hr>
+<div class="refsect2">
+<a name="id-1.2.103.5.5.2"></a><h3>Element Pads</h3>
+<div class="variablelist"><table border="0" class="variablelist">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody>
+<tr>
+<td><p><span class="term">name</span></p></td>
+<td>sink</td>
+</tr>
+<tr>
+<td><p><span class="term">direction</span></p></td>
+<td>sink</td>
+</tr>
+<tr>
+<td><p><span class="term">presence</span></p></td>
+<td>always</td>
+</tr>
+<tr>
+<td><p><span class="term">details</span></p></td>
+<td>audio/x-raw, format=(string)F64LE, rate=(int)[ 1, 2147483647 ], channels=(int)[ 1, 2 ]</td>
+</tr>
+<tr>
+<td><p><span class="term"></span></p></td>
+<td> audio/x-raw, format=(string)F32LE, rate=(int)[ 1, 2147483647 ], channels=(int)[ 1, 2147483647 ]</td>
+</tr>
+<tr>
+<td><p><span class="term"></span></p></td>
+<td> audio/x-raw, format=(string)S16LE, rate=(int)[ 1, 2147483647 ], channels=(int)[ 1, 2147483647 ]</td>
+</tr>
+<tr>
+<td><p><span class="term"></span></p></td>
+<td> audio/x-raw, format=(string)U8, rate=(int)[ 1, 2147483647 ], channels=(int)[ 1, 2147483647 ]</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.functions_details"></a><h2>Functions</h2>
+<p></p>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.other_details"></a><h2>Types and Values</h2>
+<div class="refsect2">
+<a name="GstOpenALSink"></a><h3>struct GstOpenALSink</h3>
+<pre class="programlisting">struct GstOpenALSink {
+  GstAudioSink sink;
+
+  gchar *device_name;
+
+  ALCdevice *default_device;
+  /* When set, device is not owned */
+  ALCdevice *user_device;
+
+  ALCcontext *default_context;
+  /* When set, device or context is not owned */
+  ALCcontext *user_context;
+
+  ALuint default_source;
+  /* When set, source is not owned */
+  ALuint user_source;
+
+  ALuint buffer_idx;
+  ALuint buffer_count;
+  ALuint *buffers;
+  ALuint buffer_length;
+
+  ALenum format;
+  ALuint rate;
+  ALuint channels;
+  ALuint bytes_per_sample;
+
+  ALboolean write_reset;
+
+  GstCaps *probed_caps;
+
+  GMutex openal_lock;
+};
+</pre>
+</div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.property-details"></a><h2>Property Details</h2>
+<div class="refsect2">
+<a name="GstOpenALSink--context-handle"></a><h3>The <code class="literal">“context-handle”</code> property</h3>
+<pre class="programlisting">  “context-handle”           <span class="type">gpointer</span></pre>
+<p>Custom playback context.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--device"></a><h3>The <code class="literal">“device”</code> property</h3>
+<pre class="programlisting">  “device”                   <span class="type">gchar</span> *</pre>
+<p>Human-readable name of the device.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: NULL</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--device-handle"></a><h3>The <code class="literal">“device-handle”</code> property</h3>
+<pre class="programlisting">  “device-handle”            <span class="type">gpointer</span></pre>
+<p>Custom playback device.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--device-name"></a><h3>The <code class="literal">“device-name”</code> property</h3>
+<pre class="programlisting">  “device-name”              <span class="type">gchar</span> *</pre>
+<p>Human-readable name of the opened device.</p>
+<p>Flags: Read</p>
+<p>Default value: ""</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--source-id"></a><h3>The <code class="literal">“source-id”</code> property</h3>
+<pre class="programlisting">  “source-id”                <span class="type">guint</span></pre>
+<p>Custom playback sID.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--user-context"></a><h3>The <code class="literal">“user-context”</code> property</h3>
+<pre class="programlisting">  “user-context”             <span class="type">gpointer</span></pre>
+<p>User context.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--user-device"></a><h3>The <code class="literal">“user-device”</code> property</h3>
+<pre class="programlisting">  “user-device”              <span class="type">gpointer</span></pre>
+<p>User device.</p>
+<p>Flags: Read / Write</p>
+</div>
+<hr>
+<div class="refsect2">
+<a name="GstOpenALSink--user-source"></a><h3>The <code class="literal">“user-source”</code> property</h3>
+<pre class="programlisting">  “user-source”              <span class="type">guint</span></pre>
+<p>User source.</p>
+<p>Flags: Read / Write</p>
+<p>Default value: 0</p>
+</div>
+</div>
+<div class="refsect1">
+<a name="gst-plugins-bad-plugins-openalsink.see-also"></a><h2>See Also</h2>
+<p>openalsrc</p>
+</div>
+</div>
+<div class="footer">
+<hr>Generated by GTK-Doc V1.25</div>
+</body>
+</html>
